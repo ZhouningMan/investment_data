@@ -1,0 +1,5 @@
+indices:
+    investing.com
+all public companies:
+    https://www.nasdaq.com/screening/company-list.aspx
+    

@@ -9,5 +9,3 @@ select cr.name, cr.rank, cr.employer
 from ceo_rating cr
 where cr.year = 2017 and upper(name) not in (select distinct upper(ceo) from ceo_compensation )
 order by cr.rank asc;
-
-
